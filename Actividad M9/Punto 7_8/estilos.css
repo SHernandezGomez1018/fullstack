@@ -1,0 +1,31 @@
+#title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu {
+    background-color: pink;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu li {
+    padding: 12px;
+    list-style: none;
+}
+
+.menu li:hover {
+    background-color: #0000ff;
+}
+
+.menu a {
+    color: #ffff;
+    font-size: 25px;
+}
+
+.final {
+    font-size: 15px;
+    text-align: center;
+}

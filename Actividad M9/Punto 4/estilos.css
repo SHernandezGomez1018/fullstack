@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    margin: auto;
+    text-align: center;
+}
+
+.Titulo {
+    color: #fffaf0;
+    font-size: 60px;
+}
+
+.Azul {
+    color: #0000ff;
+    font-size: 50px;
+}
+
+.Rojo {
+    color: #ff0000;
+    font-size: 50px;
+}
+
+#nombre {
+    color: rgb(193, 231, 231);
+    font-size: 20px;
+}

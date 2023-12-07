@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+}
+
+/*Con esta accion se vera reflejado el tamano de la fuente y el margen de la misma*/
+h1 {
+    font-size: 1.8em;
+    margin: .9em 0 0 0;
+}
+
+/*Con esta accion se vera reflejado el tamano de la fuente y el margen de la misma*/
+h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+}
+
+/*Esta es el ancho que se vera reflejado en las imagenes*/
+img {
+    max-width: 100%;
+}
+
+figure {
+    background: black;
+    border-radius: 5px;
+    color: white;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: .8em;
+
+}
+
+/*Si los pixeles estan por debajo de 794px se veran reflejados y se ajustaran en dispositivos moviles, a partir de 794px hasta 1020px se vera reflejado en tablets*/
+@media screen and (min-width: 794px) {
+    body {
+        background: rgba(0, 0, 255, .2);
+        margin: 25px 6%;
+    }
+
+    figure {
+        float: left;
+        width: 45%;
+        margin-right: 4.5%;
+    }
+}
+
+/*El tamano minimo para que se vea reflejado en computadores es de 1020px y al incrementar los pixeles se ira ajustando hasta 1130px*/
+@media screen and (min-width: 1020px) {
+
+    body {
+        background: rgba(0, 255, 0, .2);
+        margin: 25px 10%;
+        max-width: 1130px;
+    }
+
+    figure {
+        width: 30%;
+        margin-right: 2.5%;
+    }
+}

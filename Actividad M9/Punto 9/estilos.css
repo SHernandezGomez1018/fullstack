@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+.tabla {
+    background-color: #ffff00;
+    border-collapse: collapse;
+    border-bottom: dotted #ff0000;
+}
+
+.tabla th {
+    color: #ff0000;
+}
+
+.tabla td,
+tr {
+    border: 1px dotted #000000;
+}
+
+#primera, #segunda {
+    font-size: 30px;
+}
+
+#footer_name {
+    font-size: 10px;
+    text-align: center;
+}

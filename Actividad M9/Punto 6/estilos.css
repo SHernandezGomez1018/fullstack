@@ -1,0 +1,26 @@
+body {
+    background-color: #d3d1d1de;
+    margin: auto;
+    text-align: center;
+}
+
+#title {
+    font-size: 25px;
+}
+
+.titu {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Titulo1 {
+    color: #ffff00;
+}
+
+.Titulo2 {
+    color: #800080;
+}
+
+#footer_name {
+    font-size: 10px;
+}
